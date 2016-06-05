@@ -3,6 +3,7 @@
 
 #define RAD_TO_DEGREE (180/(4 * atanl(1)))
 
+// can also use tgmath.h instead of defining these
 #define SQRT(X) _Generic((X),\
     long double: sqrtl, \
     default: sqrt, \
